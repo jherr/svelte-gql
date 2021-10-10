@@ -1,0 +1,8 @@
+query Articles {
+  articles {
+    title
+    slug
+    content
+    author
+  }
+}

@@ -1,0 +1,8 @@
+mutation addArticle($title: String!, $content: String!, $author: String!) {
+	addArticle(title: $title, content: $content, author: $author) {
+		slug
+		title
+		content
+		author
+	}
+}
